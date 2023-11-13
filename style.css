@@ -254,9 +254,12 @@ form .btn:hover{
     border-radius: 20px;
 }
 
-.help-con p{
-    font-size: 20px;
+.point{
+    font-size: 16px;
     font-weight: 300;
+}
+.point li{
+    margin-bottom: 10px;
 }
 
 .help-con p i{
