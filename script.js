@@ -33,3 +33,12 @@ about.onclick = async () =>{
     about_con.classList.remove('active');
 
 }
+
+let help = document.querySelector('.help');
+let help_con = document.querySelector('.help-con');
+help.onclick = async () =>{
+    help_con.classList.toggle('active');
+    await sleep(1500);
+    help_con.classList.remove('active');
+
+}

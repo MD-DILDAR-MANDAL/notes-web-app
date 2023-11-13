@@ -238,3 +238,30 @@ form .btn:hover{
 .about-con.active{
     display: flex;
 }
+
+.help-con{
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+    width: 200px;
+    min-height: 100px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    background: var(--text-color);
+    transition: all .50s ease;
+    color: var(--bg-color);
+    border-radius: 20px;
+}
+
+.help-con p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.help-con p i{
+    font-size: 25px;
+}
+.help-con.active{
+    display: flex;
+}
